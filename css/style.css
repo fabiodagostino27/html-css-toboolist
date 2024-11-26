@@ -26,3 +26,33 @@ header span {
     font-size: 40px;
     font-weight: 600;
 }
+
+/* Main */
+main {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+}
+
+main nav {
+    padding: 15px 50px;
+    border-bottom: 1px solid rgb(177, 174, 174);
+}
+
+main nav button {
+    padding: 5px 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+main .button-blue {
+    background-color: #47ADF1;
+    color: white;
+    border-color: #47ADF1;
+}
+
+main .button-white {
+    background-color: white;
+    border-color: rgb(177, 174, 174);
+    color: rgb(177, 174, 174);
+}
