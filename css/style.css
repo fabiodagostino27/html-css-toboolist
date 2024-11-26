@@ -27,7 +27,7 @@ header span {
     font-weight: 600;
 }
 
-/* Main */
+/* Nav */
 main {
     background-color: white;
     width: 70%;
@@ -35,7 +35,7 @@ main {
 }
 
 main nav {
-    padding: 15px 50px;
+    padding: 15px 0 15px 60px;
     border-bottom: 1px solid rgb(177, 174, 174);
 }
 
@@ -56,3 +56,61 @@ main .button-white {
     border-color: rgb(177, 174, 174);
     color: rgb(177, 174, 174);
 }
+
+/* Main */
+main section {
+    padding: 30px 0 30px 60px;
+}
+
+main section h3 {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+main section span {
+    font-size: 14px;
+}
+
+main section .list-item {
+    margin: 10px 0;
+}
+
+section .checkmark, .cross {
+    display: inline-block;
+    border: 2px solid;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+section .checkmark {
+    border-color: green;
+    color: green;
+}
+
+.list-item .list-item-text {
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.list-item .item-type {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.editorial {
+    background-color: #59B5EC;   
+}
+
